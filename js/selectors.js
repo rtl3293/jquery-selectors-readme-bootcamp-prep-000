@@ -4,7 +4,12 @@ function paragraphSelector() {
   return p
 }
 
-function lastImageSelector(){
+function lastImageSelector() {
   var lastImg= $("img:last")
   return lastImg
+}
+
+function ninjaBabySelector() {
+  var ninjaBaby = $("#baby-ninja")
+  return ninjaBabySelector
 }
