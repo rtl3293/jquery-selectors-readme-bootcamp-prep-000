@@ -2,5 +2,9 @@
 function paragraphSelector() {
   var p = $('p')
   return p
+}
 
+function lastImageSelector(){
+  var lastImg= $("img:last")
+  return lastImg
 }
